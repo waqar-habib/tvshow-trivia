@@ -132,11 +132,13 @@ function displayQuestion(){
 
     $('#category').html('<h3>' + "Category: " + myQuestions[currentQ].category + '</h3>');
     $('.question').html('<h2>' + myQuestions[currentQ].question + '</h2>');
-    for (var x = 0; x < 4; x++) {
+        for (var x = 0; x < 4; x++) {
         var givenChoice = $('<div>');
         givenChoice.text(myQuestions[currentQ].answerArray[x]); //start here
+        
         givenChoice.attr({'data-index': x });
         givenChoice.addClass('myChoice');
+        
         $('.answers').append(givenChoice);
         
     }
@@ -154,10 +156,10 @@ function displayQuestion(){
 // 5. Make a function that will set the timer to 10 seconds
 
 function myTimer(){
-    seconds = 15; //time alotted for each question
+    seconds = 60; //time alotted for each question
     $('#timer').html('<h3>You have ' + seconds + ' seconds left </h3>');
     isAnswered = true;
-    clock = setInterval(howManySecs, 1000);
+    clock = setInterval(howManySecs, 6000);
 }
 
 // 6. Make a function to execute the timer to go down

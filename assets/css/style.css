@@ -37,22 +37,10 @@ p {
     font-size: 1.3rem;
 }
 
-/* for items that will be changed dynamically thru JS*/
-.placeholder {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #ffffff;
-    font-size: 1.3rem;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-
+#header {
+    border: 1rem;
+    border-color: #000000;
 }
 
-.answer1, .answer2, .answer3, .answer4, .question {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #ffffff;
-    font-size: 1.3rem;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-}
 
 
