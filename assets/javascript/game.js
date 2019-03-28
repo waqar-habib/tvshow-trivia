@@ -156,10 +156,10 @@ function displayQuestion(){
 // 5. Make a function that will set the timer to 10 seconds
 
 function myTimer(){
-    seconds = 60; //time alotted for each question
+    seconds = 15; //time alotted for each question
     $('#timer').html('<h3>You have ' + seconds + ' seconds left </h3>');
     isAnswered = true;
-    clock = setInterval(howManySecs, 6000);
+    clock = setInterval(howManySecs, 1000);
 }
 
 // 6. Make a function to execute the timer to go down
@@ -215,6 +215,7 @@ function results (){
     $('#timer').empty();
     $('#prompt').empty();
     $('#fixedAns').empty();
+    $('#category').empty();
     //if adding images, empty the image div
 
     $('#resultPrompt').html(prompt.quizEnd);

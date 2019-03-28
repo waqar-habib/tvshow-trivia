@@ -1,15 +1,15 @@
 body{
-    /*background-image: url(../images/background.jpeg);*/
+    background-image: url(../images/background.jpg);
     min-height: 100vh;
     background-size: cover;
 	background-repeat: no-repeat;
     background-attachment: scroll;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .heading {
-    font-size: 4rem !important;
-    font-family: 'Lilita One', cursive;
-    letter-spacing: 3px;
+    font-size: 3.5rem !important;
+    font-family: 'Press Start 2P', cursive;
     color: #000000;
     margin-top: 1rem !important;
     padding-top: 15px;
@@ -20,26 +20,23 @@ h2 {
     color: #000000;
 }
 
-.myChoice {
+.myChoice, #timer, #category, #prompt, #fixedAns   {
     font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1.5rem;
     color: #000000;
 }
-#main {
-    height: 30rem !important;
-    margin-left: 8rem;
-    
+
+#quiz {
+    margin-left: 3rem;
+    text-align: center;
+    margin-top: 4rem;
 }
 
-
-p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #ffffff;
-    font-size: 1.3rem;
-}
-
-#header {
-    border: 1rem;
-    border-color: #000000;
+#correctAns, #wrongAns, #noAns, #reset {
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', cursive;
 }
 
 
