@@ -53,10 +53,22 @@ var myQuestions = [
         correctAnswer: 0
     },
     {
+        category: "Brooklyn 99",
+        question: "When Jake sends Captain Holt an email, what did he accidently leave as his signature?",
+        answerArray: ["The name of Amy's sex tape", "My Stinky Butt", "H.A.G.S. Jake", "My smelly farts"],
+        correctAnswer: 1
+    },
+    {
         category: "Grey's Anatomy",
         question: "What is Miranda Bailey's son's name?",
         answerArray: ["Tuck", "William George", "George William", "Ben"],
         correctAnswer: 1
+    },
+    {
+        category: "Brooklyn 99",
+        question: "When playing 'Never Have I Ever,' what's the one thing Amy has actually?",
+        answerArray: ["Had sex in the back of a squad car", "Changed lanes without signaling", "Had a one night stand with a guy from  a band", "Left a movie before the credits finished"],
+        correctAnswer: 2
     },
     {
         category: "Grey's Anatomy",
@@ -65,11 +77,24 @@ var myQuestions = [
         correctAnswer: 3
     },
     {
+        category: "Brooklyn 99",
+        question: "What is the name of Captain Holt's original car?",
+        answerArray: ["Gertie", "Gertrude", "Cindy", "Cheryl"],
+        correctAnswer: 0
+    },
+    {
         category: "Grey's Anatomy",
         question: "Where did Meredith grow up?",
         answerArray: ["Seattle", "Chicago", "Auckland", "Boston"],
         correctAnswer: 3
     },
+    {
+        category: "Brooklyn 99",
+        question: "What is Terry's favorite flavor of yogurt?",
+        answerArray: ["Apricot", "Strawberry", "Passionfruit", "Mango"],
+        correctAnswer: 3
+    },
+    
     {
         category: "Grey's Anatomy",
         question: "Who was never a resident on the show?",
