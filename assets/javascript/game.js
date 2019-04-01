@@ -47,6 +47,12 @@ var myQuestions = [
         correctAnswer: 2
     },
     {
+        category: "The Office",
+        question: "What is the title of Michael's self-penned action movie?",
+        answerArray: ["Threat Level: Zero Dawn", "Midnight Threat", "Threat Level Midnight", "The Ultimatum"],
+        correctAnswer: 2
+    },
+    {
         category: "Grey's Anatomy",
         question: "Which country did Christina move to?",
         answerArray: ["Switzerland", "France", "Norway", "Antarctica"],
@@ -89,6 +95,12 @@ var myQuestions = [
         correctAnswer: 3
     },
     {
+        category: "Parks and Rec",
+        question: "The series is set in the parks department of a fictional town called Pawnee. In what state is Pawnee in?",
+        answerArray: ["Indiana", "Texas", "North Carolina", "South Dakota"],
+        correctAnswer: 0
+    },
+    {
         category: "Brooklyn 99",
         question: "What is Terry's favorite flavor of yogurt?",
         answerArray: ["Apricot", "Strawberry", "Passionfruit", "Mango"],
@@ -106,6 +118,12 @@ var myQuestions = [
         question: "Which character moved to New York?",
         answerArray: ["Callie Torres", "Addison Shepherd", "Christina Yang", "Preston Burke"],
         correctAnswer: 0
+    },
+    {
+        category: "The Office",
+        question: "Where do Jim and Pam get married?",
+        answerArray: ["A Church", "Maid of the Mist", "Oahu", "Las Vegas"],
+        correctAnswer: 1
     },
     //Add more questions here
 ];
